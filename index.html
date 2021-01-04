@@ -57,7 +57,7 @@
 
     <section class="carrinho_modal" :class="{ativo: carrinhoAtivo}" @click="clickForaCarrinho">
       <div class="carrinho_container">
-        <button class="carrinho_fechar" @click="carrinhoAtivo = false"><i class="fas fa-trash"></i></button>
+        <button class="carrinho_fechar" @click="carrinhoAtivo = false">  X  </button>
         <h2 class="carrinho_titulo">Carrinho</h2>
         <div v-if="carrinho.length > 0">
           <ul class="carrinho_lista">
